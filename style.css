@@ -1,40 +1,55 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 
-
+/* nav style start */
 nav{
     width: 100%;
     height: 130px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    margin-bottom: 50px;
 }
 .nav-content{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-right: 50px;
+    margin-left: 80px;
 }
 .nav-logo{
     width: 80px;
     height: 40px;
     margin-right: 20px;
 }
+.pink{
+    color: #FF42A5;
+}
 .nav-title{
-
+    font-size: 45px;
+    font-weight: 700;
 }
 nav ul{
     display: flex;
+    margin-right: 80px;
 }
 
 nav li{
     display: flex;
     list-style-type: none;
     margin-right: 30px;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
 }
 .navbar-list{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .social-content{
-    width: 200px;
+    width: 220px;
     height: 40px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
@@ -46,4 +61,96 @@ nav li img{
     margin-left: 15px;
     width: 30px;
     height: 25px;
+    cursor: pointer;
 }
+/* nav style end */
+
+/* banner style start */
+
+.banner-container{
+    width: 100%;
+    /* height: 600px; */
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    margin-bottom: 50px;
+}
+.banner-content{
+    margin-left: 80px;
+}
+.banner-title{
+    color: #0B0223;
+    font-size: 3.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+}
+.banner-bio{
+    font-size: 5.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #8758F1;
+    margin: 0;
+}
+.banner-description{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.btn-primary-1{
+    background-color: #FF42A5;
+    border-radius: 45px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: none;
+    margin-right: 20px;
+}
+.btn-primary-2{
+    border-radius: 45px;
+    background: #4EC5F7;
+    padding: 15px 30px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-profile{
+    margin-right: 80px;
+}
+.banner-profile img{
+    width: 600px;
+    height: 100%;
+}
+/* banner style end */
+
+/* main style start */
+main{
+    margin: 50px auto;
+}
+.games-info{
+    text-align: center;
+}
+.games-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.games-content img{
+    width: 250px;
+    height: 300px;
+}
+
+.games-img-desc{
+    width: 280px;
+}
+/* main style end */
