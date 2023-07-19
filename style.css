@@ -111,6 +111,7 @@ nav li img{
     padding: 15px 30px;
     border: none;
     margin-right: 20px;
+    cursor: pointer;
 }
 .btn-primary-2{
     border-radius: 45px;
@@ -121,6 +122,7 @@ nav li img{
     font-size: 1.2rem;
     font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .banner-profile{
     margin-right: 80px;
@@ -194,23 +196,39 @@ main{
     margin: 50px 80px 0px 100px;
     gap: 30px;
 }
-/* .games-content-2{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-size: cover;
+.games-content-2{
+    position: relative;
+}
+.games-content-2 img{
+    width: 270px;
+    height: 300px;
 }
 .icon-background{
-    position: relative;
-    background-image: url('icon/play.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-} */
-/* .games-content .icon-background img{
+    position: absolute;
+    width: 270px;
+    height: 300px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.60);
+    top: 0%;
+}
+.icon-background img{
     width: 48px;
     height: 48px;
-} */
+    background: #FFF;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.icon-background p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #FF42A5;
+    margin-top: 0;
+    cursor: pointer;
+}
+
 
 .games-content img{
     width: 270px;
@@ -303,6 +321,21 @@ main{
     margin-left: 30px;
 }
 
+.games-info-container-1 .games-info-content:hover{
+    border: 2px solid blueviolet;
+    border-radius: 50px;
+    background: #FFF;
+}
+.games-info-container-1 .games-info-content-2:hover{
+    border: 2px solid blueviolet;
+    border-radius: 50px;
+    background: #FFF;
+}
+.games-info-container-3 .games-info-content:hover{
+    border: 2px solid blueviolet;
+    border-radius: 50px;
+    background: #FFF;
+}
 
 .games-info-content-2{
     width: 200px;
@@ -370,6 +403,7 @@ footer{
     color: #FFF;
     font-size: 1.1rem;
     font-weight: 600;
+    cursor: pointer;
 }
 .social-media-profile{
     display: flex;
@@ -390,6 +424,7 @@ footer{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    cursor: pointer;
 }
 .settings-info p{
     color: rgba(255, 255, 255, 0.60);
