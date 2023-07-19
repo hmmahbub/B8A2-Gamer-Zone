@@ -157,7 +157,7 @@ main{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 50px 80px 0px;
+    margin: 50px 80px 0px 100px;
     gap: 30px;
 }
 
@@ -230,17 +230,121 @@ main{
 
 
 /* games info style start */
-
-.games-info-container{
+.games-details{
         width: 100%;
-        height: 420px;
-        gap: 10px;
-        margin-top: 100px;
+        height: 350px;
+        margin-top: 200px;
+}
+.games-info-container-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.games-info-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
-.games-info-content{
-    
+
+.games-info-content-2{
+    width: 200px;
+    height: 70px;
+    border-radius: 60px;
+    background: #FFF;
+    border: 1px solid #FF42A5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
 }
+.games-info-content-2 img{
+    margin-right: 10px;
+}
+.games-details > h4{
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.games-info-content img{
+    margin-right: 10px;
+}
+
+.games-info-container-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+}
+
+
 /* games info style end */
 
 /* main style end */
+
+
+/* footer sec style start */
+
+footer{
+    width: 100%;
+    height: 550px;
+    background: #0B0223;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.games-title{
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.footer-content-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.footer-content-title p{
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.social-media-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media-profile img {
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.settings-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.settings-info p{
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+    margin-right: 30px;
+}
+.footer-desc{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-weight: 500;
+}
+
+/* footer sec style end */
