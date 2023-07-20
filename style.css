@@ -171,7 +171,7 @@ main{
     }
 /* team gamers style end */
 
-/* games thumbnail style end */
+/* games thumbnail style start */
 .games-thumbnail-pera{
     text-align: center;
 }
@@ -261,8 +261,8 @@ main{
 }
 /* games thumbnail style end */
 
-/* gamers sec style start */
 
+/* gamers sec style start */
     .gamers-container{
         display: flex;
         justify-content: space-between;
@@ -287,10 +287,7 @@ main{
         width: 250px;
         height: 250px;
     }
-/* 
-    .gamers-content{
 
-    } */
     .gamers-content-title{
         width: 426px;
         color: #0B0223;
@@ -308,8 +305,6 @@ main{
 
 
 /* games info style start */
-
-
 .games-details{
         display: flex;
         justify-content: center;
@@ -372,15 +367,12 @@ main{
 .linear{
     color: #F94992;
 }
-
-
 /* games info style end */
 
 /* main style end */
 
 
 /* footer sec style start */
-
 footer{
     width: 100%;
     height: 500px;
@@ -441,11 +433,12 @@ footer{
     text-align: center;
     font-weight: 500;
 }
-
 /* footer sec style end */
 
 
-/* responsive style for mobile device */
+
+/* responsive style for device */
+/* inspect Mobile-L-425 size */
 @media screen and (max-width: 576px) {
     nav {
         height: 400px;
@@ -500,6 +493,7 @@ footer{
     }
     .gamers-team-profile img{
         width: 350px;
+        height: auto;
     }
 
     .team-gamers-content{
@@ -512,7 +506,7 @@ footer{
     .team-gamers-desc{
         width: 300px;
         text-align: justify;
-        margin: 0 auto;
+        margin: 10px auto;
         line-height: 25px;
     }
     .unleash{
@@ -524,10 +518,6 @@ footer{
         justify-content: center;
         margin: 0;
     }
-
-
-    /*  */
-
 
     .gamers-container {
         flex-direction: column;
@@ -560,29 +550,28 @@ footer{
         text-align: center; 
         }
 
-    /*  */
-
     .games-thumbnail-pera .games-title{
         font-size: 1.8rem;
-        margin: 0;
+        margin: 30px auto;
     }
 
     .games-details{
         display: block;
     }
-
     .games-info-container {
+        max-width: 500px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         height: 400px;
-        padding: 0 30px;
+        grid-gap: 5px;
         margin-top: 50px;
-        /* overflow: hidden; */
     }
     .games-info-content, .games-info-content-2{
         width: auto;
         height: 60px;
+        padding: 0 -30px;
     }
+
     footer{
         height: 100%;
     }
@@ -665,7 +654,6 @@ footer{
         justify-content: center;
         margin-right: 10px;
         margin-left: 60px;
-    
     }
 
     .gamers-container{
@@ -686,7 +674,7 @@ footer{
         width: 350px;
         text-align: center;
         font-size: 2rem;
-        margin-left: 80px;
+        margin-left: 130px;
     }
     .gamers-content-desc{
         width: 100%;
@@ -715,4 +703,4 @@ footer{
         margin-left: 100px;
     }
 }
-  
+  /* Responsive tablet style end */
